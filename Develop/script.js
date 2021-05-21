@@ -50,6 +50,7 @@ function generatePassword(lower, upper, number, symbol) {
   var userSelect = window.confirm ("Would you like to include special characters?"); 
 
   let generatedPassword = " ";
+  return generatePassword;
 }
 
 // Add event listener to generate button
