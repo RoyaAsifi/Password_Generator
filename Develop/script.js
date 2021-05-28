@@ -49,16 +49,21 @@ function generatePassword(lower, upper, number, symbol) {
   var userSelect = window.confirm ("Would you like to include numbers?");
   var userSelect = window.confirm ("Would you like to include special characters?"); 
 
-  let generatedPassword = " ";
-  return generatePassword;
-}
+  let generatedPassword = "test123";
+  return generatedPassword;
+};
 
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
-
+generateBtn.addEventListener("click", function() {
+  if (count > 8) {
+    count--;
+    CountQueuingStrategy.textContent = count;
+    randomFunctions.generatePassword("click", function(); {
+    }
+    }
+  }),
 
 console.log (lowerChars());
 console.log (upperChars());
 console.log (numberChars());
 console.log (specialChars());
-console.log(lowerChars, upperChars, numberChars, specialChars);
